@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libri</title>
+</head>
+<body>
+<h2><center>ACQUISTA IL TUO LIBRO</center></h2>
+<!--CONTENITORE DI FILE-->
+<div style="width: max-content; border-style: ridge; padding: 10px; background-color: rgba(255, 255, 0, 0.179);">
+    
+    <div style="background-color: rgb(0, 159, 217); width: 400px; display: inline-block; ">
+    
+        <center>
+            <h1>Effettua il pagamento</h1>
+            <h4>FACILE, SICURO e CONVENIENTE</h4>
+            <p style="color: whitesmoke;"><b>Acquista ORA per soli 10€</b></p>
+            <hr>
+            <input type="image" style="width: 200px;" src="https://m.media-amazon.com/images/I/715PlCsPCML.jpg" alt="">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_xclick">
+                <input type="hidden" name="business" value="tribolati.andrea98@gmail.com">
+                <input type="hidden" name="item_name" value="L'uomo e la barca">
+                <input type="hidden" name="amount" value="10.00">
+                <input type="hidden" name="currency_code" value="EUR">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+              </form>
+        </center>
+    
+      
+    </div>
+    
+        <div style="background-color: rgb(255, 152, 197); width: 400px; display: inline-block; ">
+        
+            <center>
+                <h1>Effettua il pagamento</h1>
+                <h4>FACILE, SICURO e CONVENIENTE</h4>
+                <p style="color: whitesmoke;"><b>Acquista ORA per soli 15€</b></p>
+                <hr>
+                <input type="image" style="width: 200px;" src="https://m.media-amazon.com/images/I/61wbvf8cWPL.jpg" alt="">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_xclick">
+                    <input type="hidden" name="business" value="tribolati.andrea98@gmail.com">
+                    <input type="hidden" name="item_name" value="L'uomo e la barca">
+                    <input type="hidden" name="amount" value="15.00">
+                    <input type="hidden" name="currency_code" value="EUR">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+            </center>
+        
+          
+        </div>
+</div>
+<br>
+<input type="checkbox" name="terms" value="accept" required> Accetto i termini e le condizioni
+</div>
+
+</body>
+</html>
